@@ -75,7 +75,7 @@
   &kp TAB    &kp Q  &kp W  &kp E  &kp R  &kp T    &kp Y  &kp U   &kp I      &kp O    &kp P     &kp C_MUTE 
    &kp ESC  &kp A  &mt LCTRL S  &mt LALT D  &mt LSHFT F  &kp G    &kp H  &mt RSHFT J   &mt RALT K  &mt RCTRL L  &mt RGUI APOSTROPHE  &kp SEMI 
    &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B    &kp N  &kp M   &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT 
-                  &kp LCTRL &lt 2 BSPC &lt 1 DELETE         &lt 3 ENTER &lt 1 SPACE      &kp LSHIFT 
+                  &kp BSPC &lt 2 LSHFT &lt 1 DELETE         &lt 3 ENTER &lt 1 SPACE      &kp LSHIFT 
                         >;
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
                 };
@@ -105,8 +105,8 @@
                         bindings = <
        &kp TAB  &kp GRAVE  &kp N7     &kp N8    &kp N9  &kp MINUS                       &kp MINUS  &kp AMPERSAND &kp ASTRK  &kp LPRN  &kp RPRN  &kp BSPC 
       &kp LCTL &kp PIPE  &kp N4      &kp N5      &kp N6  &kp EQUAL                       &kp EQUAL   &kp DOLLAR  &kp PERCENT  &kp CARET  &kp LEFT_BRACE   &kp GRAVE 
-      &kp LSFT  &kp FSLH  &kp N1    &kp N2    &kp N3  &kp KP_DOT                       &kp SLASH  &kp EXCL   &kp AT  &kp HASH  &kp RIGHT_BRACE  &kp TILD 
-                                          &kp N0      &trans   &trans      &trans  &trans  &kp RALT 
+      &kp LSFT  &kp FSLH  &kp N1    &kp N2    &kp N3  &kp N0                        &kp SLASH  &kp EXCL   &kp AT  &kp HASH  &kp RIGHT_BRACE  &kp TILD 
+                                          &kp KP_DOT      &trans   &trans      &trans  &trans  &kp RALT 
                         >;
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
                 };
