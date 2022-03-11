@@ -57,6 +57,7 @@
         COMBO(RPAR, 6 7)
         COMBO(TAB, 2 3)
         COMBO(SCLN, 21 22)
+        COMBO(ENTER, 20 21 22)
     };
     };
 
@@ -74,8 +75,8 @@
                         bindings = <
   &kp TAB    &kp Q  &kp W  &kp E  &kp R  &kp T    &kp Y  &kp U   &kp I      &kp O    &kp P     &kp C_MUTE 
    &kp ESC  &kp A  &mt LCTRL S  &mt LALT D  &mt LSHFT F  &kp G    &kp H  &mt RSHFT J   &mt RALT K  &mt RCTRL L  &mt RGUI APOSTROPHE  &kp SEMI 
-   &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B    &kp N  &kp M   &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT 
-                  &kp LCTRL &kp LSHFT &lt 2 DELETE         &lt 3 ENTER &lt 1 SPACE      &kp LSHIFT 
+   &kp LSHFT  &mt LSHFT Z  &kp X  &kp C  &kp V  &kp B    &kp N  &kp M   &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT 
+                  &kp LCTRL &kp LSHFT &lt 2 BSPC         &lt 3 ENTER &lt 1 SPACE      &kp DELETE 
                         >;
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
                 };
